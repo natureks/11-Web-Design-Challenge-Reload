@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootcamp Visualization Demo</title>
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="sticky-footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="static.css">
+  <link rel="stylesheet" href="relative.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="index.html">Lattitude</a> 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+      </ul>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <a class="dropdown-item" href="visualize-1.html">Max Temperature</a>
+              <a class="dropdown-item" href="visualize-2.html">Humudity</a>
+              <a class="dropdown-item" href="visualize-3.html">Cloudiness</a>
+              <a class="dropdown-item" href="visualize-4.html">Wind Speed</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Comparision.html">Comparision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+	<div class="container-fluid">
+		<!-- Main  Row -->
+		<div class="row">
+
+		  <div class="col-md-8 col-sm-12">
+			<h1>Max Temperature</h1>
+			<img style="width:100%" src="Resources/assets/images/Fig1.png" >
+			<p>				As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg Latitude).  More interestingly, however, is the fact the southern hemisphere tends to be warmer this time of the year then the northern hemisphere. This may be due to the titl of the earth at the time of the year this data was gathered.
+			</p>
+
+			<!-- <div class="row">
+			  <div class="col-12 col-sm-12">
+				<h1>Max Temperature</h1>
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div>
+				<img src="Resources/assets/images/Fig1.png" >
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div class="col-12 col-sm-12">
+				As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg Latitude).  More interestingly, however, is the fact the southern hemisphere tends to be warmer this time of the year then the northern hemisphere. This may be due to the titl of the earth at the time of the year this data was gathered.
+			  </div>
+			</div> -->
+		  </div>
+
+		  <div class="col-md-4 col-sm-12">
+			<!-- <div class="row">
+			  <div class="col-12 col-sm-12">
+				<h1>Visualization</h1>
+			  </div>
+			</div> -->
+			<h1>Visualization</h1>
+			<a href="visualize-1.html"><img class="float-left" src="Images/Fig1.png" width="50%" ></a>
+			<a href="visualize-1.html"><img class='float-right' src="Images/Fig2.png" width="50%" ></a>
+			<a href="visualize-1.html"><img class='float-left' src="Images/Fig3.png" width="50%" ></a>
+			<a href="visualize-1.html"><img class='float-right' src="Images/Fig4.png" width="50%" ></a>
+
+			<!-- <div class="row">
+			  <div class="col-6 col-sm-6">
+				<a href="visualize-1.html"><img src="Images/Fig1.png" width="200" height="200"></a>
+			  </div>
+			  <div class="col-6 col-sm-6">
+				<a href="visualize-2.html"><img src="Images/Fig2.png" width="200" height="200"></a>
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div class="col-6 col-sm-6">
+				<a href="visualize-2.html"><img src="Images/Fig3.png" width="200" height="200"></a>
+			  </div>
+			  <div class="col-6 col-sm-6">
+				<a href="visualize-3.html"><img src="Images/Fig4.png" width="200" height="200"></a>
+			  </div>
+			</div>
+		  </div> -->
+		</div>
+	</div>
+    
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">@ Copyright Coding Bootcamp 2017</span>
+      </div>
+    </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
